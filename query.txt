@@ -1,0 +1,56 @@
+mysql> use travel
+Database changed
+mysql> select * from login;
++----------+----------+
+| username | password |
++----------+----------+
+| shirin   | divya    |
++----------+----------+
+1 row in set (0.05 sec)
+
+mysql> select * from signup;
++----------+----------+----------+---------+------+----------+
+| username | password | email_id | address | city | mobileno |
++----------+----------+----------+---------+------+----------+
+| s        | asas     | as       | sa      | as   | ad       |
++----------+----------+----------+---------+------+----------+
+1 row in set (0.05 sec)
+
+mysql> select * from feedback;
++----------+--------------+-----------------+--------------+
+| username | mobileno     | emailid         | feedback     |
++----------+--------------+-----------------+--------------+
+| 1        | 1            | 1               |  1           |
+| shirin   | 7298293319   | abc@gmail.com   |  well tour   |
+|          |              |                 |              |
+| divya    | 873283610730 | divya@gamil.com |  fwwwhshqihq |
+| tayseen  | 57731836181  | abc@gmail.com   |  very nice   |
+| ks       | s            | s               |  sas         |
++----------+--------------+-----------------+--------------+
+6 rows in set (0.03 sec)
+
+mysql> select * from contactus;
+Empty set (0.01 sec)
+
+mysql> select * from booking;
+ERROR 1146 (42S02): Table 'travel.booking' doesn't exist
+mysql> select * from book;
++---------------+-----------+------------+------------------+----------------+--------------+
+| username      | address   | city       | select_pack_type | select_vehicle | select_place |
++---------------+-----------+------------+------------------+----------------+--------------+
+| Shaikh Shirin | Ward no 7 | Nashik     | 8days            | Balero         | Hyderabad    |
+| eddy Divya   | Ward no 8 | Shrirampur | 2days            | Mini Bus       | Banglore     |
++---------------+-----------+------------+------------------+----------------+--------------+
+2 rows in set (0.05 sec)
+
+mysql>
+
+
+
+
+
+
+
+
+
+

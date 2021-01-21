@@ -1,0 +1,49 @@
+#body
+{
+width:1080px;
+border:1px solid black;
+}
+#header
+{
+width:auto;
+margin:2px 2px 2px 2px;
+padding:5px 5px 5px 5px;
+border:1px solid black;
+height:300px;
+}
+#menu
+{
+width:auto;
+margin:2px 2px 2px 2px;
+padding:5px 5px 5px 5px;
+border:1px solid black;
+height:40px;
+}
+#content
+{
+width:710px;
+height:600px;
+margin:2px 2px 2px 2px;
+padding:10px 10px 10px 10px;
+border:1px solid black;
+float:right;
+}
+#sidebar
+{
+width:310px;
+height:600px;
+margin:5px 5px 5px 5px;
+padding:10px 10px 10px 10px;
+border:1px solid black;
+float:left;
+}
+#footer
+{
+clear:both;
+width:auto;
+margin:2px 2px 2px 2px;
+padding:5px 5px 5px 5px;
+border:1px solid black;
+height:50px;
+}
+
